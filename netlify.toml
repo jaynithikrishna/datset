@@ -1,0 +1,8 @@
+[build]
+  command = "pip install -r requirements.txt"
+  functions = "functions"
+
+[dev]
+  framework = "#custom"
+  command = "python api.py"
+  targetPort = 5000
